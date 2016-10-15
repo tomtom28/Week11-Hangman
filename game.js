@@ -36,5 +36,5 @@ var j = Math.floor(Math.random() * listOfWords.length);
 var guessWord = listOfWords[j];
 
 
-// Export the random word to other game script(s)
+// Export the random word to other hangman script(s)
 module.exports = guessWord;
