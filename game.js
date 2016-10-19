@@ -30,11 +30,5 @@ var listOfWords = [
   'handlebars'
 ];
 
-
-// Randomly select a word in the list
-var j = Math.floor(Math.random() * listOfWords.length);
-var guessWord = listOfWords[j];
-
-
-// Export the random word to other hangman script(s)
-module.exports = guessWord;
+// Export the list of words to other hangman script(s)
+module.exports = listOfWords;
