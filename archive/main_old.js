@@ -57,6 +57,12 @@
 // }
 
 
+// **************************************************************************************************
+// YOU CAN IGNORE THESE "old" files... they were my work in trying to get the starter files working
+// It didnt work out. so i just hid them here in the archive folder  
+// **************************************************************************************************
+
+
 
 // --------------------------------------------------
 // Require prompt to use to make the game 

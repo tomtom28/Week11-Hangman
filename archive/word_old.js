@@ -6,7 +6,12 @@
 // word.js should contain all of the methods which will check the letters guessed versus the random word selected.
 
 
-//v ----------------------------------------------------
+
+// **************************************************************************************************
+// YOU CAN IGNORE THESE "old" files... they were my work in trying to get the starter files working
+// It didnt work out. so i just hid them here in the archive folder  
+// **************************************************************************************************
+
 
 // require your letter objects
 var letterObjs = require('./letter.js');

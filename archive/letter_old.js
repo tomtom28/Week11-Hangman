@@ -6,6 +6,17 @@
 // letter.js should control whether or not a letter appears as a "_" or as itself on-screen.
 
 
+
+
+
+
+// **************************************************************************************************
+// YOU CAN IGNORE THESE "old" files... they were my work in trying to get the starter files working
+// It didnt work out. so i just hid them here in the archive folder  
+// **************************************************************************************************
+
+
+
 // Link the word to guess
 var guessWord = require('./game.js');
 
