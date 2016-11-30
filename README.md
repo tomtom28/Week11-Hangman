@@ -1,9 +1,9 @@
 # Brogrammer Hangman
-A console-based hangman Node.js app that incorporates objects, user-input, and constructors. Keeping on the theme of a command line application, all the words to be guessed are programming languauges. Start building up your Brogrammer lexicon now!
+A console-based hangman Node.js app that incorporates objects, user-input, and constructors. Keeping on the theme of a command line application, all the words to be guessed are programming languauges (or frameworks). Start building up your Brogrammer lexicon now!
 
 The app uses the `inquirer` node module to collect user inputs.
 
-No cheating! All of the words that can be guessed are in the `game.js`.
+No cheating! All of the words that can be guessed are in the `game.js` file.
 
 
 # Instructions
