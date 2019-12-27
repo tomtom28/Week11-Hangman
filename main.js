@@ -50,7 +50,7 @@ var game = {
     this.currentWrd = this.wordBank[j];
 
     // Inform User game has begun
-    console.log('Figure out the Programming Language. Do you have what it takes, brah?');
+    console.log('Figure out the Programming Language. Do you have what it takes?');
 
     // Show the empty letters ( _ _ _ _ ) and guesses, etc.
     displayHangman = new lettersToDisplay(this.currentWrd);
@@ -89,7 +89,7 @@ function keepPromptingUser(){
       if(alphabet.indexOf(inputLetter) == -1){
 
         // Tell user they did not guess a letter
-        console.log('You shwasted! Dude, "' + inputLetter + '" is not a letter. Try again!');
+        console.log('Umm, "' + inputLetter + '" is not a letter. Try again!');
         console.log('Guesses Left: ' + game.guessesRemaining);
         console.log('Letters already guessed: ' + lettersAlreadyGuessed);
         keepPromptingUser();
@@ -98,7 +98,7 @@ function keepPromptingUser(){
       else if(alphabet.indexOf(inputLetter) != -1 && lettersAlreadyGuessed.indexOf(inputLetter) != -1){
 
         // Tell user they already guessed that letter
-        console.log('Lay off the ganja! You already guessed "' + inputLetter + '". Try again!');
+        console.log('Wait a second... You already guessed "' + inputLetter + '". Try again!');
         console.log('Guesses Left: ' + game.guessesRemaining);
         console.log('Letters already guessed: ' + lettersAlreadyGuessed);
         keepPromptingUser();
@@ -126,8 +126,8 @@ function keepPromptingUser(){
 
           // Test if the user has won
           if(displayHangman.winner){
-            console.log('You win! Congrats, you are legit a brogrammer!');
-            console.log('Crush some brews to celebrate, mi hombre!')
+            console.log('You win! Congrats, you are legit a programmer!');
+            console.log('Drink some coffee to celebrate, my friend!')
             return;
           }
           // Not a win yet, so ask for another input and decrement guesses
@@ -155,9 +155,9 @@ function keepPromptingUser(){
   }
   // If not enough guesses left, then user losses
   else{
-    console.log('Bummer, dude. I guess you\'re no brogrammer, afterall.');
-    console.log('Try again when you can bench 200 lb and type 120 wpm... while drinking.');
-    console.log('Oh yeah. FYI. The word was "' + game.currentWrd + '".');
+    console.log('So sad. I guess you\'re not ready to be a programmer yet.');
+    console.log('Try again after some more practice.');
+    console.log('The word was "' + game.currentWrd + '".');
   }
 
 }
